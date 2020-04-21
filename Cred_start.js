@@ -12,15 +12,6 @@ const question = async text =>
     );
   });
 
-// Client ID and client secret are available at
-// 1. Go to https://console.cloud.google.com/apis/dashboard
-// 2. Click "Enable APIs and Services"
-// 3. Search "Sheets"
-// 4. Click "Enable"
-// 5. Go to https://console.developers.google.com/apis/credentials/oauthclient
-// 6. IMPORTANT: Choose "Other" and choose a name
-// 8. Should find a form with: Client ID, Client secret
-// 9. Run this script
 
 async function fill() {
   const clientId = await question("Enter the client ID here: ");

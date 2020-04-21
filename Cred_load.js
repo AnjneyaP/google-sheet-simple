@@ -1,6 +1,5 @@
 const { google } = require("googleapis");
 
-//load credentials some how...
 let creds = null;
 try {
   creds = require("./Credentials.json");
