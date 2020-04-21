@@ -1,0 +1,14 @@
+{
+  "name": "google-sheet-simple",
+  "version": "1.0.0",
+  "description": "this is simple node project for using google-sheet as API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anjneya",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^36.0.0"
+  }
+}
